@@ -1,0 +1,23 @@
+*** Variables ***
+${url}            http://automationpractice.com/index.php
+${browser}        chrome
+${button}         xpath=/html/body/div/div[1]/header/div[2]/div/div/nav/div[1]/a
+${email}          xpath=//*[@id="email"]
+${password}       xpath=//*[@id="passwd"]
+${button1}        xpath=//*[@id="SubmitLogin"]
+${button2}        xpath=/html/body/div/div[2]/div/div[1]/a
+${image}          xpath=/html/body/div/div[2]/div/div[2]/div/div[1]/ul[1]/li[2]/div/div[1]/div/a[1]/img
+${quantity}       xpath=//*[@id="quantity_wanted"]
+${size}           xpath=//*[@id="group_1"]
+${color}          xpath=//*[@id="color_11"]
+${button3}        xpath=/html/body/div/div[2]/div/div[3]/div/div/div/div[4]/form/div/div[3]/div/p/button
+${button4}        xpath=/html/body/div/div[1]/header/div[3]/div/div/div[4]/div[1]/div[2]/div[4]/a
+${button5}        xpath=/html/body/div/div[1]/header/div[3]/div/div/div[4]/div[1]/div[2]/div[4]/a
+${button6}        xpath=/html/body/div/div[2]/div/div[3]/div/p[2]/a[1]
+${button7}        xpath=/html/body/div/div[2]/div/div[3]/div/form/p/button
+${button8}        xpath=//*[@id="delivery_option_500025_0"]
+${termsOfServiceCheckbox}    xpath=//*[@id="cgv"]
+${proccedToCheckoutShipping}    xpath=/html/body/div/div[2]/div/div[3]/div/div/form/p/button
+${button9}        xpath=/html/body/div/div[2]/div/div[3]/div/div/div[3]/div[1]/div/p/a
+${button10}       xpath=/html/body/div/div[2]/div/div[3]/div/div/div[3]/div[1]/div/p/a
+${button11}       xpath=/html/body/div/div[2]/div/div[3]/div/form/p/button
